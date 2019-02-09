@@ -1,4 +1,3 @@
-/*
 #include <iostream>
 using namespace std;
 
@@ -15,4 +14,3 @@ int main()
 	res	-= 48*N;
 	cout<<res;
 } 
-*/
