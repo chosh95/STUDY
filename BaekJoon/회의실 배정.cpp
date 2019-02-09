@@ -1,4 +1,3 @@
-/*
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -11,7 +10,7 @@ bool cmp_time(time a,time b);
 
 int main()
 {
-	int N;	//È¸ÀÇÀÇ ¼ö 
+	int N;	//íšŒì˜ì˜ ìˆ˜ 
 	cin>>N;
 	time a[N+1]; 
 	for(int i=1;i<=N;i++){
@@ -22,8 +21,8 @@ int main()
 	
 	//for(int i=1;i<=N;i++) cout<<a[i].start<<" "<<a[i].end<<endl;
 	
-	int min_end = a[1].end; // ÇöÀç °¡Àå »¡¸® ³¡³ª´À È¸ÀÇ ½Ã°£ ±â·Ï¿ë 
-	int count = 1;	// ÃÖ´ë È¸ÀÇ ¼ö ±â·Ï¿ë 
+	int min_end = a[1].end; // í˜„ì¬ ê°€ì¥ ë¹¨ë¦¬ ëë‚˜ëŠ íšŒì˜ ì‹œê°„ ê¸°ë¡ìš© 
+	int count = 1;	// ìµœëŒ€ íšŒì˜ ìˆ˜ ê¸°ë¡ìš© 
 	for(int i=2;i<=N;i++){
 		if(a[i].start >= min_end){ 
 			min_end = a[i].end;
@@ -33,11 +32,10 @@ int main()
 	cout<<count;
 }
 
-bool cmp_time(time a,time b) //±¸Á¶Ã¼ time ½Ã°£ ºñ±³  
+bool cmp_time(time a,time b) //êµ¬ì¡°ì²´ time ì‹œê°„ ë¹„êµ  
 {
 	if(a.end<b.end) return true; 
-	else if(a.end==b.end) return a.start<b.start; //³¡³ª´Â ½Ã°£ÀÌ °°À¸¸é 
-										//ÀÏÂï ½ÃÀÛÇÏ´Â°É ¾ÕÀ¸·Î Á¤·Ä 
+	else if(a.end==b.end) return a.start<b.start; //ëë‚˜ëŠ” ì‹œê°„ì´ ê°™ìœ¼ë©´ 
+										//ì¼ì° ì‹œì‘í•˜ëŠ”ê±¸ ì•ìœ¼ë¡œ ì •ë ¬ 
 	else return false;
 }
-*/
