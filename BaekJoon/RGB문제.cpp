@@ -1,8 +1,7 @@
-/*
 #include <iostream> 
 using namespace std;
 int dp[1001][4]; // 
-int p[1001][4]; //p[i][1,2,3] : i¹øÂ° ÁıÀÇ »¡°­,ÃÊ·Ï,ÆÄ¶ûÀÇ È®·ü 
+int p[1001][4]; //p[i][1,2,3] : ië²ˆì§¸ ì§‘ì˜ ë¹¨ê°•,ì´ˆë¡,íŒŒë‘ì˜ í™•ë¥  
 
 int main()
 {
@@ -26,4 +25,3 @@ int main()
 	res = min(res,dp[N][3]);
 	cout<<res;
 }
-*/
