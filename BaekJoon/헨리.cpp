@@ -1,4 +1,3 @@
-/*
 #include <iostream>
 using namespace std;
 
@@ -30,4 +29,3 @@ int henry(int a,int b)
 		else i++;		
 	}
 }
-*/
