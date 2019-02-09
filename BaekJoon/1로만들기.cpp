@@ -1,4 +1,3 @@
-/*
 #include <iostream>
 using namespace std;
 int dp[1000000];
@@ -27,4 +26,3 @@ int min3(int a,int b,int c)
 	minnum = min(minnum,c);
 	return minnum;
 }
-*/
