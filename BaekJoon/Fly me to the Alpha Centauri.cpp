@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 using namespace std;
 int main()
@@ -17,4 +18,4 @@ int main()
 		if(dist<=n*n) cout<<n*2-1<<endl;
 		else cout<<n*2<<endl;;
 	}
-}
+}*/
