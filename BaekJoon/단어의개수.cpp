@@ -1,4 +1,3 @@
-/*
 #include <iostream>
 using namespace std;
 
@@ -16,4 +15,4 @@ int main()
 	cout<<res;
 	
 	return 0;
-*/
+}
