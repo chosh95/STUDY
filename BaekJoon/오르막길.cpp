@@ -1,11 +1,10 @@
-/*
 #include <iostream>
 using namespace std;
 int p[1004];
 int q[1004];
 int main()
 {
-	int N,t=0,c=0; //c=0:³»¸®¸· c=1:¿À¸£¸· c=2:ÆòÁö 
+	int N,t=0,c=0; //c=0:Â³Â»Â¸Â®Â¸Â· c=1:Â¿Ã€Â¸Â£Â¸Â· c=2:Ã†Ã²ÃÃ¶ 
 	cin>>N;
 	if(N==0) cout<<0;
 	else{
@@ -34,4 +33,3 @@ int main()
 	cout<<max;
 	}
 }
-*/
