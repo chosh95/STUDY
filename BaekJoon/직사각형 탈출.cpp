@@ -1,4 +1,3 @@
-/*
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -13,4 +12,3 @@ int main()
 	sort(p,p+4);
 	cout<<p[0];
 }
-*/
