@@ -1,4 +1,3 @@
-/*
 #include <iostream>
 using namespace std;
 
@@ -23,4 +22,3 @@ int main()
 	if(N==0) cout<<i-1;
 	else if(t!=1) cout<<-1;
 }
-*/
