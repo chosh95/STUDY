@@ -1,4 +1,3 @@
-/*
 #include <iostream> 
 using namespace std;
 int dp[1001][1001];
@@ -22,4 +21,3 @@ int main()
 	}		
 	cout<<dp[N][N];
 }
-*/
