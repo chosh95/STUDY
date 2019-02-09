@@ -1,4 +1,3 @@
-/*
 #include <iostream>
 using namespace std;
 void case1(int N);
@@ -60,5 +59,3 @@ void case3(int N)
 {
 	cout<<p[1]+p[2];
 }
-
-*/
