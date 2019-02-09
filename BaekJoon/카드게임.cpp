@@ -1,4 +1,3 @@
-/*
 #include <iostream>
 using namespace std;
 
@@ -42,4 +41,3 @@ int card(int a,int b,bool c)
 	else 
 		return max(p[a]+dp[a+1][b], dp[a][b-1]+p[b]);
 }
-*/
