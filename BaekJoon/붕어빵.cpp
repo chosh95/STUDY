@@ -1,3 +1,4 @@
+/*
 #include <iostream> 
 using namespace std;
 int dp[1001][1001];
@@ -18,8 +19,7 @@ int main()
 			if(j>=i) dp[i][j] = max(dp[i-1][j],p[i]+dp[i][j-i]);
 			else if(j<i) dp[i][j] = dp[i-1][j];
 		}
-	}
-	
-	
+	}		
 	cout<<dp[N][N];
 }
+*/

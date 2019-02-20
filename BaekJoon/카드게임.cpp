@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 using namespace std;
 
@@ -25,8 +26,7 @@ int main()
 				for(int k=1;k+l<=N;k++){
 					dp[k][k+l] = card(k,k+l,t);
 				}
-				if(t==true)	t=false;
-				else t=true;
+				t = t ? false : true;
 			}
 			cout<<dp[1][N]<<"\n";
 		}
@@ -42,3 +42,4 @@ int card(int a,int b,bool c)
 	else 
 		return max(p[a]+dp[a+1][b], dp[a][b-1]+p[b]);
 }
+*/
