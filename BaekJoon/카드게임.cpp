@@ -25,8 +25,7 @@ int main()
 				for(int k=1;k+l<=N;k++){
 					dp[k][k+l] = card(k,k+l,t);
 				}
-				if(t==true)	t=false;
-				else t=true;
+				t = t ? false : true;
 			}
 			cout<<dp[1][N]<<"\n";
 		}
