@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+/*
+>>>>>>> 9fe011e74c4cca81972d57c2f802553362fea3eb
 #include <iostream> 
 using namespace std;
 int dp[1001][1001];
@@ -21,3 +25,7 @@ int main()
 	}		
 	cout<<dp[N][N];
 }
+<<<<<<< HEAD
+=======
+*/
+>>>>>>> 9fe011e74c4cca81972d57c2f802553362fea3eb

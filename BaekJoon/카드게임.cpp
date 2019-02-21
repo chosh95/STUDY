@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+/*
+>>>>>>> 9fe011e74c4cca81972d57c2f802553362fea3eb
 #include <iostream>
 using namespace std;
 
@@ -41,3 +45,7 @@ int card(int a,int b,bool c)
 	else 
 		return max(p[a]+dp[a+1][b], dp[a][b-1]+p[b]);
 }
+<<<<<<< HEAD
+=======
+*/
+>>>>>>> 9fe011e74c4cca81972d57c2f802553362fea3eb

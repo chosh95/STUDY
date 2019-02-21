@@ -1,10 +1,18 @@
+<<<<<<< HEAD
+=======
+/*
+>>>>>>> 9fe011e74c4cca81972d57c2f802553362fea3eb
 #include <iostream>
 using namespace std;
 int p[1004];
 int q[1004];
 int main()
 {
+<<<<<<< HEAD
 	int N,t=0,c=0; //c=0:Â³Â»Â¸Â®Â¸Â· c=1:Â¿Ã€Â¸Â£Â¸Â· c=2:Ã†Ã²ÃÃ¶ 
+=======
+	int N,t=0,c=0; //c=0:³»¸®¸· c=1:¿À¸£¸· c=2:ÆòÁö 
+>>>>>>> 9fe011e74c4cca81972d57c2f802553362fea3eb
 	cin>>N;
 	if(N==0) cout<<0;
 	else{
@@ -33,3 +41,7 @@ int main()
 	cout<<max;
 	}
 }
+<<<<<<< HEAD
+=======
+*/
+>>>>>>> 9fe011e74c4cca81972d57c2f802553362fea3eb

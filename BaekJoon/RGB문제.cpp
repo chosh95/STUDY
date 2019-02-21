@@ -1,7 +1,15 @@
+<<<<<<< HEAD
 #include <iostream> 
 using namespace std;
 int dp[1001][4]; // 
 int p[1001][4]; //p[i][1,2,3] : ië²ˆì§¸ ì§‘ì˜ ë¹¨ê°•,ì´ˆë¡,íŒŒë‘ì˜ í™•ë¥  
+=======
+/*
+#include <iostream> 
+using namespace std;
+int dp[1001][4]; // 
+int p[1001][4]; //p[i][1,2,3] : i¹øÂ° ÁıÀÇ »¡°­,ÃÊ·Ï,ÆÄ¶ûÀÇ È®·ü 
+>>>>>>> 9fe011e74c4cca81972d57c2f802553362fea3eb
 
 int main()
 {
@@ -25,3 +33,7 @@ int main()
 	res = min(res,dp[N][3]);
 	cout<<res;
 }
+<<<<<<< HEAD
+=======
+*/
+>>>>>>> 9fe011e74c4cca81972d57c2f802553362fea3eb

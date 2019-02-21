@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+/*
+>>>>>>> 9fe011e74c4cca81972d57c2f802553362fea3eb
 #include <iostream>
 using namespace std;
 void case1(int N);
@@ -59,3 +63,8 @@ void case3(int N)
 {
 	cout<<p[1]+p[2];
 }
+<<<<<<< HEAD
+=======
+
+*/
+>>>>>>> 9fe011e74c4cca81972d57c2f802553362fea3eb

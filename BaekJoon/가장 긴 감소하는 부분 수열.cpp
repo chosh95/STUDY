@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+/*
+>>>>>>> 9fe011e74c4cca81972d57c2f802553362fea3eb
 #include <iostream>
 using namespace std;
 int p[1001];
@@ -19,4 +23,8 @@ int main()
 	int res=0;
 	for(int i=1;i<=N;i++) if(res<dp[i]) res = dp[i];
 	cout<<res;
+<<<<<<< HEAD
 }
+=======
+}*/
+>>>>>>> 9fe011e74c4cca81972d57c2f802553362fea3eb

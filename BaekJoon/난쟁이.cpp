@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+/*
+>>>>>>> 9fe011e74c4cca81972d57c2f802553362fea3eb
 #include <iostream> 
 #include <algorithm>
 using namespace std;
@@ -30,3 +34,8 @@ int main()
 	}
 	return 0;
 }
+<<<<<<< HEAD
+=======
+*/
+
+>>>>>>> 9fe011e74c4cca81972d57c2f802553362fea3eb
