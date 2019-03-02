@@ -1,34 +1,17 @@
-<<<<<<< HEAD
 #include <iostream>
 using namespace std;
+int p[43];
 
-=======
-/*
-#include <iostream>
-using namespace std;
->>>>>>> 9fe011e74c4cca81972d57c2f802553362fea3eb
 int main()
 {
-	int N,t=0,i=1;
-	cin>>N;
-	if(N%5==0){
-		cout<<N/5;
-		t=1;
+	int tmp;
+	for (int i = 1; i <= 10; i++) {
+		cin >> tmp;
+		p[tmp % 42] = 1;
 	}
-	else{
-		for(i=1;N>0;i++){
-			N=N-3;
-			if(N%5==0 && N>=5){
-				cout<<i+N/5;
-				t=1;
-				break;
-			}
-		}   
+	int cnt = 0;
+	for (int i = 0; i <= 41; i++) {
+		if (p[i] == 1) cnt++;
 	}
-	if(N==0) cout<<i-1;
-	else if(t!=1) cout<<-1;
+	cout << cnt;
 }
-<<<<<<< HEAD
-=======
-*/
->>>>>>> 9fe011e74c4cca81972d57c2f802553362fea3eb
