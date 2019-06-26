@@ -24,11 +24,20 @@ do {		//모든 순열 순서대로 출력 ex) 123, 132, 213, 231, 312, 321
 	}
 	cout << "\n";
 } while (next_permutation(p, p + N));
-int main()
+
+//union-find
+int find(int a)
 {
-
+	if (parent[a] == a) return parent[a];
+	else return parent[a] = find(parent[a]);
 }
-
+void merge(int a, int b)
+{
+	a = find(a);
+	b = find(b);
+	if (a == b) return;
+	else parent[a] = b;
+}
 
 
 
