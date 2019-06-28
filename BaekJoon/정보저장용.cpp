@@ -17,6 +17,18 @@ getline(cin, s); //공백 포함 한 줄 입력시
 stoi(string) // string을 int로
 str = str2.substr(i,j) // str2의 부분스트링 추출
 
+//문자열 cin으로 시간초과시 char 배열 입력 받아서 string으로 전환
+char tmp[22];
+string str;
+scanf("%s", tmp);
+str = tmp;
+
+//최대공약수
+int gcd(int a, int b)
+{
+	if (b == 0) return a;
+	else gcd(b, a%b);
+}
 
 do {		//모든 순열 순서대로 출력 ex) 123, 132, 213, 231, 312, 321
 	for (int i = 0; i < N; i++) {
@@ -39,6 +51,10 @@ void merge(int a, int b)
 	else parent[a] = b;
 }
 
+//for문에 변수 여러개 사용하는법
+for (int i = 2, j = 2; i <= N; i++, j++) {
+	p[i] = p[i - 1] + j;
+}
 
 
 
