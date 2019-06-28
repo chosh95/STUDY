@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-/*
->>>>>>> 9fe011e74c4cca81972d57c2f802553362fea3eb
 #include <iostream>
 using namespace std;
 
@@ -33,7 +29,3 @@ int henry(int a,int b)
 		else i++;		
 	}
 }
-<<<<<<< HEAD
-=======
-*/
->>>>>>> 9fe011e74c4cca81972d57c2f802553362fea3eb

@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-#include <iostream> 
-using namespace std;
-int dp[1001][4]; // 
-int p[1001][4]; //p[i][1,2,3] : i번째 집의 빨강,초록,파랑의 확률 
-=======
-/*
 #include <iostream> 
 using namespace std;
 int dp[1001][4]; // 
@@ -33,7 +26,3 @@ int main()
 	res = min(res,dp[N][3]);
 	cout<<res;
 }
-<<<<<<< HEAD
-=======
-*/
->>>>>>> 9fe011e74c4cca81972d57c2f802553362fea3eb

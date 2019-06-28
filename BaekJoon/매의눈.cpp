@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-/*
->>>>>>> 9fe011e74c4cca81972d57c2f802553362fea3eb
 #include <iostream>
 #include <string>
 using namespace std;
@@ -43,7 +39,3 @@ void print(void)
 	for(int i=1;i<=4;i++) if(h[i]==1){cout<<i<<endl; break;}
 	for(int i=1;i<=4;i++) if(h[i]==2){cout<<i<<endl; break;}
 }
-<<<<<<< HEAD
-=======
-*/
->>>>>>> 9fe011e74c4cca81972d57c2f802553362fea3eb

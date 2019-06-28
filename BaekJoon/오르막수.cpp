@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 #include <iostream>
-=======
-/*#include <iostream>
->>>>>>> 9fe011e74c4cca81972d57c2f802553362fea3eb
 using namespace std;
 long long dp[1001][11];
 void ascent(int n);
@@ -32,8 +28,4 @@ void ascent(int n)
 		dp[n][10] += dp[n][i];
 		dp[n][10] %= 10007;
 	}
-<<<<<<< HEAD
 }
-=======
-}*/
->>>>>>> 9fe011e74c4cca81972d57c2f802553362fea3eb

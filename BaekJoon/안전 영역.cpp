@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-/*
->>>>>>> 9fe011e74c4cca81972d57c2f802553362fea3eb
 #include <iostream>
 #include <queue>
 using namespace std;
@@ -70,9 +66,4 @@ int main()
 	}
 	if(res==0)res=1;
 	cout<<res;
-<<<<<<< HEAD
 }
-=======
-}*/
->>>>>>> 9fe011e74c4cca81972d57c2f802553362fea3eb
-

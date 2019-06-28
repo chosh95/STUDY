@@ -1,4 +1,3 @@
-/*
 #include <iostream> 
 using namespace std;
 long long p[1000001];
@@ -10,4 +9,4 @@ int main()
 	for(int i=1;i<=N;i++) cin>>p[i];
 	
 	return 0;
-} */
+} 
