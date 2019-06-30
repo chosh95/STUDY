@@ -16,6 +16,8 @@ getline(cin, s); //공백 포함 한 줄 입력시
 
 stoi(string) // string을 int로
 str = str2.substr(i,j) // str2의 부분스트링 추출
+string str = to_string(num); // int를 string으로 
+if (str.find("666") != string::npos)//string에 특정 문자열 포함여부 확인 string::npos대신 -1도 가능
 
 //문자열 cin으로 시간초과시 char 배열 입력 받아서 string으로 전환
 char tmp[22];
@@ -56,7 +58,10 @@ for (int i = 2, j = 2; i <= N; i++, j++) {
 	p[i] = p[i - 1] + j;
 }
 
-
+// num!에 2의 약수 개수 구하는 법
+for (ll i = 2; i <= num; i *= 2) {
+	t += num / i;
+}
 
 cd / d / git
 git init
