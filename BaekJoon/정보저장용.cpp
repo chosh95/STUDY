@@ -1,10 +1,12 @@
 #define _CRT_SECURE_NO_WARNINGS 
 //scanf쓸 때 추가 
-#include <iostream> // 귀찮은 헤더들
+#define pi 3.1415926535897932384
+#include <iostream> // 헤더들
 #include <algorithm>
 #include <string>
 #include <stdio.h>
 #include <queue>
+#include <vector>
 #include <stack>
 using namespace std;
 int v[10][10];
