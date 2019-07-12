@@ -14,13 +14,14 @@ bool p[100]; // 전역변수시 0(false)로 초기화
 
 memset(v, 9999, sizeof(v)); // 배열 초기화(2차원,3차원 가능) memory.h 추가
 
+cin.ignore() // getline 이전에 cin에 있는 버퍼 제거(ex. '\n')
 getline(cin, s); //공백 포함 한 줄 입력시
 
 stoi(string) // string을 int로
 str = str2.substr(i,j) // str2의 부분스트링 추출
 string str = to_string(num); // int를 string으로 
 if (str.find("666") != string::npos)//string에 특정 문자열 포함여부 확인 string::npos대신 -1도 가능
-
+reverse(str.begin(), str.end()); // str을 뒤집는 방법, <algorithm> 포함해야함
 //문자열 cin으로 시간초과시 char 배열 입력 받아서 string으로 전환
 char tmp[22];
 string str;
