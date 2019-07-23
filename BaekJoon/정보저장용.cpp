@@ -40,7 +40,7 @@ do {		//모든 순열 순서대로 출력 ex) 123, 132, 213, 231, 312, 321
 		cout << p[i] << " ";
 	}
 	cout << "\n";
-} while (next_permutation(p, p + N));
+} while (next_permutation(p, p + N)); //#include <algorithm> 필요
 
 //union-find
 int find(int a)
