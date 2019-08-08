@@ -12,7 +12,11 @@ using namespace std;
 int v[10][10];
 bool p[100]; // 전역변수시 0(false)로 초기화
 
-memset(v, 9999, sizeof(v)); // 배열 초기화(2차원,3차원 가능) memory.h 추가
+//cin용
+ios_base::sync_with_stdio(0); 
+cin.tie(0);
+
+memset(v, -1, sizeof(v)); // 배열 초기화(2차원,3차원 가능) memory.h 추가
 
 cin.ignore() // getline 이전에 cin에 있는 버퍼 제거(ex. '\n')
 getline(cin, s); //공백 포함 한 줄 입력시
