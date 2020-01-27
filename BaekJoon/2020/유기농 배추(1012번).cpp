@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <queue>
 #include <cstring>
 using namespace std;
@@ -35,19 +35,19 @@ int main()
 {
 	cin >> T;
 	while (T--) {
-		//ÃÊ±âÈ­
+		//ì´ˆê¸°í™”
 		memset(p, 0, sizeof(p));
 		memset(visit, 0, sizeof(visit));
 		res = 0;
 
-		//ÀÔ·Â
+		//ìž…ë ¥
 		cin >> N >> M >> K;
 		for (int a, b, i = 0; i < K; i++) {
 			cin >> a >> b;
 			p[a][b] = 1;
 		}
 
-		//±¸Çö
+		//êµ¬í˜„
 		for (int i = 0; i < N; i++) {
 			for (int j = 0; j < M; j++) {
 				if (p[i][j] == 1 && visit[i][j] == 0) {
@@ -57,7 +57,7 @@ int main()
 			}
 		}
 
-		//Ãâ·Â
+		//ì¶œë ¥
 		cout << res << endl;
 	}
 }
