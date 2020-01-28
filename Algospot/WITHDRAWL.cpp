@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <iomanip>
 #include <algorithm>
 #include <vector>
@@ -26,13 +26,13 @@ double optimize()
 	double lo = -1e-9, hi = 1;
 	for (int i = 0; i < 100; i++) {
 		double mid = (lo + hi) / 2;
-		//´©Àû µî¼ö mid¸¦ ÇÒ ¼ö ÀÖ³ª?
+		//ëˆ„ì  ë“±ìˆ˜ midë¥¼ í•  ìˆ˜ ìžˆë‚˜?
 		if (decision(mid)) 
 			hi = mid;
 		else
 			lo = mid;
 	}
-	return hi;
+	return mid;
 }
 
 int main()
