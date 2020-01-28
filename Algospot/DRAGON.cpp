@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <algorithm>
 #include <cstring>
 using namespace std;
@@ -6,13 +6,13 @@ int C, N, P, L;
 const int MAX = 1000000000 + 1;
 const string  EXPAND_X = "X+YF";
 const string  EXPAND_Y = "FX-Y";
-int len[51]; //X³ª YÀÇ ¼¼´ëº° ±æÀÌ ÀúÀå
+int len[51]; //Xë‚˜ Yì˜ ì„¸ëŒ€ë³„ ê¸¸ì´ ì €ì¥
 
 void precalc()
 {
-	len[0] = 1; //X³ª Y´Ï±î ±æÀÌ´Â 1
+	len[0] = 1; //Xë‚˜ Yë‹ˆê¹Œ ê¸¸ì´ëŠ” 1
 	for (int i = 1; i <= 50; i++) {
-		// X¸¦ Ä¡È¯ÇÏ¸é "X+YF"´Ï±î XÀÇ Àü ¼¼´ë ±æÀÌ + YÀÇ Àü ¼¼´ë ±æÀÌ  + '+'¿Í'F'ÀÇ ±æÀÌ
+		// Xë¥¼ ì¹˜í™˜í•˜ë©´ "X+YF"ë‹ˆê¹Œ Xì˜ ì „ ì„¸ëŒ€ ê¸¸ì´ + Yì˜ ì „ ì„¸ëŒ€ ê¸¸ì´  + '+'ì™€'F'ì˜ ê¸¸ì´
 		len[i] = min(MAX, len[i - 1] * 2 + 2); 
 	}
 }
@@ -42,7 +42,7 @@ int main()
 	while (C--) {
 		cin >> N >> P >> L;
 		for (int i = 0; i < L; i++) 
-			//¹®ÀÚ¿­ÀÇ ÀÎµ¦½º°¡ -1ÀÌ µÇ±â ¶§¹®¿¡ p+i-1·Î È£Ãâ
+			//ë¬¸ìì—´ì˜ ì¸ë±ìŠ¤ê°€ -1ì´ ë˜ê¸° ë•Œë¬¸ì— p+i-1ë¡œ í˜¸ì¶œ
 			cout << expand("FX", N, P + i - 1); 
 		cout << endl;
 	}
