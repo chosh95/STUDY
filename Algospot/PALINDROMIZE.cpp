@@ -17,23 +17,18 @@ vector<int> getPi(const string& str) {
 	return pi;
 }
 
-int maxOverlap(const string &str, const string& strReverse) {
+int maxOverlap(const string & str, const string & strReverse) {
 	vector<int> pi = getPi(strReverse);
-	int n = str.size(), m = strReverse.size();
-	int i = 0, j = 0;
-	while (i < n) {
-		if (j < m && str[i + j] == strReverse[j]) {
-			++j;
-			if (i + j == n) return j;
-		}
-		else {
-			if (j == 0) ++i;
-			else {
-				i += j - pi[j - 1];
-				j = pi[j-1];
-			}
+	int n = str.length(), j = 0;
+	for (int i = 0; i < n; i++) {
+		while (j > 0 && str[i] != strReverse[j])
+			j = pi[j - 1];
+		if (str[i] == strReverse[j]) {
+			if (j == n - 1) return n;
+			else j++;
 		}
 	}
+	return j;
 }
 
 int main()
@@ -44,6 +39,6 @@ int main()
 		cin >> str;
 		for (int i = str.size() - 1; i >= 0; i--)
 			strReverse += str[i];
-		cout << str.length() * 2 - maxOverlap(str,strReverse) << endl;
+		cout << str.length() * 2 - maxOverlap(str, strReverse) << endl;
 	}
 }
