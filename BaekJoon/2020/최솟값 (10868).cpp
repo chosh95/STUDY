@@ -13,12 +13,13 @@ int init(int left, int right, int node) {
 }
 
 int query(int left, int right, int node, int nodeLeft, int nodeRight) {
-	if (nodeRight < left || right < nodeLeft) return 987654321;
+	if (nodeRight < left || right < nodeLeft) return 1000000000;
 	if (left <= nodeLeft && nodeRight <= right) return range[node];
 	int mid = (nodeLeft + nodeRight) / 2;
 	int res = min(query(left, right, node * 2, nodeLeft, mid),query(left, right, node * 2 + 1, mid + 1,nodeRight));
 	return res;	
 }
+
 int main()
 {
 	ios::sync_with_stdio(false);
