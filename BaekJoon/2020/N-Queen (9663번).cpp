@@ -2,7 +2,7 @@
 #include <algorithm>
 using namespace std;
 int N, res;
-int p[17];
+int p[16];
 
 bool isTrue(int x, int y) {
 	for (int i = 1; i < x; i++) {
