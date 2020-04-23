@@ -20,8 +20,8 @@ vector<int> selection_sort(const vector<int> input) {
 vector<int> bubble_sort(const vector<int> input) {
 	vector<int> v = input;
 	for (int i = 0; i < v.size(); i++) {
-		for (int j = 1; j < v.size()-i; j++) {
-			if (v[j-1] > v[j]) swap(v[j-1], v[j]);
+		for (int j = 0; j < v.size()-i-1; j++) {
+			if (v[j] > v[j+1]) swap(v[j], v[j+1]);
 		}
 	}
 	return v;
