@@ -15,18 +15,18 @@ bool isPossible(long long mid, int n, vector<int> times) {
 
 long long solution(int n, vector<int> times) {
 	sort(times.begin(), times.end());
-	long long lo = 1, hi = ((long long)times[times.size()-1] * (long long)n); //형변환 명시적으로 안해줘서 오류났었다.
-	long long answer = hi;
+	long long lo = 1, hi = ((long long)times[times.size() - 1] * (long long)n); //형변환 명시적으로 안해줘서 오류났었다.
+	long long answer = 0;
 	while (lo <= hi) {
 		long long mid = (lo + hi) / 2;
-		if (isPossible(mid,n,times)) {
-			answer = min(answer, mid);
+		if (isPossible(mid, n, times)) {
 			hi = mid - 1;
 		}
 		else {
 			lo = mid + 1;
 		}
 	}
+	answer = lo;
 	return answer;
 }
 
