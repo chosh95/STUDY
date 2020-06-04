@@ -1,16 +1,20 @@
 # STUDY
 
-#Algorithm
+# Algorithm
+
 표준 알고리즘들을 정리한 폴더입니다.
 
-#Algospot
+# Algospot
+
 알고리즘 문제해결 전략을 공부하며 푸는 Algospot에 있는 문제.  
 파일명 그대로 Algospot에 검색하면 문제가 나옵니다.
 
-#Baekjoon 
+# Baekjoon 
+
 백준 문제풀이용 폴더입니다.  
 파일명 그대로 백준에 검색하면 문제가 나옵니다.
 
-#Programmers
+# Programmers
+
 프로그래머스에서 푼 알고리즘 문제들입니다.  
 파일명 그대로 프로그래머스에 검색하면 문제가 나옵니다.
