@@ -6,7 +6,7 @@ int N;
 vector<int> v[1000001];
 vector<int> child[1000001];
 int visit[1000001];
-int dp[1000001][2]; // dp[i][0] : i가 얼리어답터일 때, dp[i][1] : 얼리어답터 아닐 때
+int dp[1000001][2]; // dp[i][0] : i가 얼리어답터가 아닐 때, dp[i][1] : 얼리어답터일 때
 
 void makeChild(int cur) {
 	for (auto next : v[cur]) {
