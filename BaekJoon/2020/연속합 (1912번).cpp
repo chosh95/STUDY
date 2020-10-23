@@ -10,7 +10,7 @@ int main()
 	cin >> N;
 	for (int i = 1; i <= N; i++) cin >> p[i];
 
-	int res = p[1];
+	int res = -987654321;
 	for (int i = 1; i <= N; i++) {
 		dp[i] = max(dp[i - 1] + p[i], p[i]);
 		res = max(res, dp[i]);
