@@ -14,8 +14,8 @@ public class Bfs {
         }
     }
 
-    int dx[] = new int[]{0,1,-1,0};
-    int dy[] = new int[]{-1,0,0,1};
+    int[] dx = new int[]{0,1,-1,0};
+    int[] dy = new int[]{-1,0,0,1};
 
     void doBfs(int a, int b, int[][] p, boolean[][] visit){
         Queue<Point> q = new LinkedList<>();
@@ -35,9 +35,6 @@ public class Bfs {
             }
         }
     }
-}
-
-class testBfs{
     public static void main(String[] args) {
         int[][] p = new int[][]{{1,0,0},{1,1,0},{0,0,1}};
         boolean[][] visit = new boolean[3][3];

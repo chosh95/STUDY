@@ -1,21 +1,20 @@
 package exec;
 
-import sun.reflect.generics.tree.Tree;
-
 import java.util.LinkedList;
 import java.util.Queue;
 
-class TreeNode{
-    int data;
-    TreeNode leftChild, rightChild;
-
-    public TreeNode(int data) {
-        this.data = data;
-        leftChild = rightChild = null;
-    }
-}
-
 public class BTree {
+
+    static class TreeNode{
+        int data;
+        TreeNode leftChild, rightChild;
+
+        public TreeNode(int data) {
+            this.data = data;
+            leftChild = rightChild = null;
+        }
+    }
+
     TreeNode root;
 
     public BTree() {
@@ -104,9 +103,7 @@ public class BTree {
         }
         System.out.println("\nBfs 순회 종료");
     }
-}
 
-class test1{
     public static void main(String[] args) {
         BTree tree = new BTree();
         tree.insert(5);

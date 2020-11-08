@@ -1,16 +1,18 @@
 package exec;
 
-class Node{
-    int data;
-    Node nextNode;
-
-    public Node(int data) {
-        this.data = data;
-        this.nextNode = null;
-    }
-}
 
 public class LinkedList {
+    
+    static class Node{
+        int data;
+        Node nextNode;
+
+        public Node(int data) {
+            this.data = data;
+            this.nextNode = null;
+        }
+    }
+
     Node root;
 
     public LinkedList() {
@@ -86,9 +88,8 @@ public class LinkedList {
         this.root = cur;
         return cur;
     }
-}
 
-class test{
+
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
         list.insert(1);
