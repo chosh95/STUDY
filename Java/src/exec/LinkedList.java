@@ -1,6 +1,8 @@
 package exec;
 
 
+import java.util.Hashtable;
+
 public class LinkedList {
     
     static class Node{
@@ -104,5 +106,6 @@ public class LinkedList {
         list.print();
         list.reverseIter();
         list.print();
+
     }
 }
