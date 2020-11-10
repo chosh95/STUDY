@@ -10,7 +10,7 @@ public class Jacob {
             for (int i = 0; i < N; i++) {
                 if (A[i] == X)
                     nX += 1;
-                else if (A[i] == Y)
+                if (A[i] == Y)
                     nY += 1;
                 if (nX == nY)
                     result = i;

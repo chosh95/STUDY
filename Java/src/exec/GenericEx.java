@@ -14,9 +14,9 @@ public class GenericEx {
     }
 
     public static void main(String[] args) {
-        GenericTest gt = new GenericTest();
-        gt.setData(123);
-        String data = (String)gt.getData();
-        System.out.println(data);
+        GenericTest gt = new GenericTest(); //raw type
+        gt.setData(123); // int로 넣고
+        String data = (String)gt.getData(); //String으로 빼면 Compile 타임에는 괜찮음
+        System.out.println(data); // Runtime에 ClassCastException 발생
     }
 }
